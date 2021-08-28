@@ -27,15 +27,15 @@
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
+    <span class="sr-only">Prethodna</span>
   </a>
   <a class="right carousel-control" href="#myCarousel" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
+    <span class="sr-only">Sledeća</span>
   </a>
 </div>
 <div class="tranding-wrapper">
-          <h3>Trending products</h3>
+          <h3>Najpopularniji proizvodi</h3>
           @foreach ($products as $item)
           <div class="trending-item">
             <a href="detail/{{ $item['id'] }}">
@@ -46,6 +46,7 @@
             </a>
         </div>
         @endforeach
+      </div>
       </div>
 
 </div>

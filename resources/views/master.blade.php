@@ -44,8 +44,14 @@ width: 60%;
     float: left;
     width: 20%;
     }
-    .tranding-wrapper{
-        margin: 30px;
-    }
+.tranding-wrapper{
+    margin: 30px;
+}
+.detail-img{
+    height: 400px;
+}
+.search-box{
+    width: 500px !important;
+}
 </style>
 </html>
