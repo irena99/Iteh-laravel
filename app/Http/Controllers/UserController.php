@@ -15,6 +15,7 @@ class UserController extends Controller
             return "Korisnik ne postoji.";
         }
         elseif(!Hash::check($req->password,$user->password)){
+            
             return "Lozinka nije ispravna.";
         }
         else{
