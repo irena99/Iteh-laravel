@@ -24,7 +24,7 @@ if(Session::has('user'))
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Početna</a></li>
-        <li class=""><a href="#">Orders</a></li>
+        <li class=""><a href="/myOrders">Porudžbine</a></li>
       </ul>
       <form action="/search" class="navbar-form navbar-left">
         <div class="form-group">
@@ -44,7 +44,7 @@ if(Session::has('user'))
           </ul>
         </li>
         @else
-        <li><a href="/login">Login</a></li>
+        <li><a href="/login">Uloguj se</a></li>
         <li><a href="/register">Registruj se</a></li>
         @endif
       </ul>

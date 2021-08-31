@@ -19,21 +19,21 @@ class ProductSeeder extends Seeder
             'price'=>'100',
             'description'=>'Mafin sa čokoladnim punjenjem',
             'category'=>'Mafin',
-            'gallery'=>'https://thumbs.dreamstime.com/z/three-act-tragedy-book-agatha-christie-facsimile-first-edition-table-london-england-uk-january-three-act-tragedy-206318090.jpg'
+            'gallery'=>'https://thebusybaker.ca/wp-content/uploads/2019/09/best-ever-from-scratch-chocolate-cupcakes-fb-ig-3-500x375.jpg'
         ],
         [
         'name'=>'Mafin jagoda',
         'price'=>'100',
         'description'=>'Mafin sa punjenjem od jagode',
         'category'=>'Mafin',
-        'gallery'=>'https://www.google.com/url?sa=i&url=https%3A%2F%2Fcelebratingsweets.com%2Fstrawberry-muffins%2F&psig=AOvVaw1EfZEYBoemYKNWX4-vUBtv&ust=1629661195946000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMiOy5rvwvICFQAAAAAdAAAAABAD'
+        'gallery'=>'https://www.lifeloveandsugar.com/wp-content/uploads/2021/03/Fresh-Strawberry-Cupcakes3.jpg'
         ],
         [
         'name'=>'Mafin sa belom čokoladom',
         'price'=>'100',
         'description'=>'Mafin sa punjenjem od bele čokolade',
         'category'=>'Mafin',
-        'gallery'=>'https://www.pamperedchef.com/iceberg/com/recipe/100348-lg.jpg'
+        'gallery'=>'https://www.chelsea.co.nz/files/cache/feda43c812d98849a952356eaa43ea71_f2361.jpg'
         ]
         
         ]);

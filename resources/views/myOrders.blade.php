@@ -3,10 +3,8 @@
 <div class="custom-product">
     <div class="col-sm-10">
       <div class="tranding-wrapper">
-        <h2>Korpa</h2>
-        <br>
-        
-        @foreach ($products as $item)
+        <h4>Moje porudžbine</h4>
+        @foreach ($orders as $item)
         <div class="row searched-item cart-list-devider">
         <div class="col-sm-3">
             <a href="detail/{{ $item->id }}">
@@ -15,17 +13,16 @@
         </div>
         <div class="col-sm-3">
                 <div class="">
-                  <h4>{{ $item->name }}</h4>
-                  <h5>{{ $item->description }}</h5>
+                  <h2>Naziv : {{ $item->name }}</h2>
+                  <h5>Status porudžbine : {{ $item->status }}</h5>
+                  <h5>Adresa : {{ $item->address }}</h5>
+                  <h5>Status isplate : {{ $item->payment_status}}</h5>
+                  <h5>Način plaćanja : {{ $item->payment_method }}</h5>
                 </div>
-        </div>
-        <div class="col-sm-3">
-          <a href="/removeCart/{{ $item->cart_id }}"class="btn btn-warning">Ukloni</a>
         </div>
       </div>
       @endforeach
     </div>
-    <a class="btn btn-success" href="orderNow">Poruči</a> <br><br>
     </div>
 </div>
 @endsection
